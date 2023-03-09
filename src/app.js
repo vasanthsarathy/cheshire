@@ -1,3 +1,17 @@
+// testing out the lanchain stuff
+import PQueue from 'p-queue/dist';
+import { OpenAI } from "langchain/llms";
+
+require('dotenv').config()
+const openAIApiKey = process.env.OPENAI_API_KEY
+
+const model = new OpenAI({ openAIApiKey: openAIApiKey, temperature: 0.9 });
+const res = model.call(
+  "What would be a good company name a company that makes colorful socks?"
+);
+console.log(res);
+
+// Now the rete stuff begins
 var numSocket = new Rete.Socket('Number value');
 
 var VueNumControl = {

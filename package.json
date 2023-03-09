@@ -19,9 +19,27 @@
   },
   "homepage": "https://github.com/vasanthsarathy/cheshire#readme",
   "devDependencies": {
-    "parcel": "^2.8.3"
+    "buffer": "^5.7.1",
+    "crypto-browserify": "^3.12.0",
+    "events": "^3.3.0",
+    "https-browserify": "^1.0.0",
+    "os-browserify": "^0.3.0",
+    "parcel": "^2.8.3",
+    "path-browserify": "^1.0.1",
+    "process": "^0.11.10",
+    "punycode": "^1.4.1",
+    "querystring-es3": "^0.2.1",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "url": "^0.11.0"
   },
   "dependencies": {
+    "@dqbd/tiktoken": "^0.4.0",
+    "@huggingface/inference": "^1.5.2",
+    "cohere-ai": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "huggingface": "^1.4.0",
+    "langchain": "^0.0.25",
     "rete": "^1.5.0",
     "rete-connection-plugin": "^0.9.0",
     "rete-vue-render-plugin": "^0.5.2"
