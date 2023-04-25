@@ -17,3 +17,7 @@ npm install cohere-ai
 npm install @dqbd/tiktoken 
 npm install punycode
 npm install @huggingface/inference
+
+
+to run
+ npx parcel src/index.html
